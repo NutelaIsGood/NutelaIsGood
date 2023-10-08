@@ -1,0 +1,11 @@
+//from psudeocode//
+REPEAT
+OUTPUT ‘Enter your 4 digit pin’
+pin ← USERINPUT
+UNTIL pin= 1234
+
+//to python//
+while True:
+    pin = input('Enter your 4 digit pin: ')
+    if pin == '1234':
+        break
