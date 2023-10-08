@@ -1,0 +1,10 @@
+//pseudocode//
+total ← 0 
+REPEAT 
+OUTPUT "Enter a positive integer: “
+num ← USERINPUT "
+IF num > 0 
+total ← total + num 
+ENDIF 
+UNTIL num <= 0 
+OUTPUT "The sum of positive integers entered is: ", total
