@@ -3,7 +3,7 @@ WHILE isDone = FALSE
 OUTPUT  "Are you done? (YES/NO):”
 response ← USERINPUT
 IF response = "YES"
-isDone ← FALSE //it should be `TRUE`
+isDone ← FALSE   //it should be `TRUE`
  ENDIF
 ENDWHILE
 OUTPUT "You are done!"
