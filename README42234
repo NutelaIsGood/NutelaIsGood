@@ -1,0 +1,14 @@
+attempts ← 3 
+Matched ← FALSE 
+WHILE attempts > 0 
+	OUTPUT "Enter your password: "
+password1 ← USERINPUT,
+password2 ← USERINPUT
+IF password1 = password2 
+OUTPUT "Password confirmed. Access granted. Welcome!" 
+matched ← TRUE 
+ELSE 
+OUTPUT "Passwords do not match. You have ", attempts - 1, " attempts remaining." 
+attempts ← attempts - 1 
+ENDIF 
+ENDWHILE
